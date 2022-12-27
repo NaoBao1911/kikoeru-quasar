@@ -31,7 +31,7 @@ jobs:
       # Convert to a valid filename
       # refs/tags/v1.2.3 => v1.2.3
       # refs/heads/unstable => unstable
-      # refs/heads/feature/foo => foo
+      # refs/heads/feature/foo => foo0
       # refs/pull/421/merge => merge
       - name: Get branch or tag name
         id: source_name
